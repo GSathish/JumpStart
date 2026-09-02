@@ -1,0 +1,273 @@
+/* Jumpstart site. Palette and type follow slides/jumpstart.sty. No build step. */
+
+:root {
+  color-scheme: light dark;
+  --red: #E5372B;
+  --red-d: #B8261C;
+  --blue: #1B4FD8;
+  --blue-d: #143BA3;
+  --amber: #FFB020;
+  --bg: #FFFFFF;
+  --fg: #0E1116;
+  --fg-2: #1A1F27;
+  --muted: #5F6772;
+  --rule: #DDE0E4;
+  --card: #F2F3F5;
+  --accent: var(--blue);
+  --link: var(--blue-d);
+  --warn-bg: #FFF4DC;
+  --max: 44rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0E1116;
+    --fg: #F2F3F5;
+    --fg-2: #E4E7EB;
+    --muted: #9AA3AD;
+    --rule: #2A3038;
+    --card: #1A1F27;
+    --accent: #5B7CFF;
+    --link: #8FA8FF;
+    --warn-bg: #2A2410;
+  }
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.55;
+}
+
+a { color: var(--link); text-decoration-thickness: 1px; text-underline-offset: 0.15em; }
+a:hover { text-decoration-thickness: 2px; }
+
+/* Header and navigation */
+
+.site-header {
+  border-bottom: 1px solid var(--rule);
+}
+
+.site-header .inner {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 0.9rem 1.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem 1.5rem;
+}
+
+.brand {
+  font-weight: 700;
+  font-size: 1.05rem;
+  letter-spacing: -0.01em;
+  color: var(--fg);
+  text-decoration: none;
+}
+
+.brand span { color: var(--red); }
+
+.site-header nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1rem;
+  margin-left: auto;
+}
+
+.site-header nav a {
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 0.95rem;
+  padding: 0.2rem 0;
+  border-bottom: 2px solid transparent;
+}
+
+.site-header nav a:hover { color: var(--fg); }
+
+.site-header nav a[aria-current="page"] {
+  color: var(--fg);
+  border-bottom-color: var(--red);
+}
+
+/* Page body */
+
+main {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 2rem 1.25rem 4rem;
+}
+
+h1, h2, h3 { line-height: 1.2; letter-spacing: -0.015em; }
+h1 { font-size: 2.25rem; margin: 0.25rem 0 0.5rem; }
+h2 { font-size: 1.4rem; margin: 2.25rem 0 0.6rem; }
+h3 { font-size: 1.1rem; margin: 1.5rem 0 0.4rem; }
+
+p, ul, ol { margin: 0 0 1rem; }
+li { margin-bottom: 0.3rem; }
+
+.kicker {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 0.25rem;
+}
+
+.lede {
+  font-size: 1.2rem;
+  color: var(--fg-2);
+  margin-bottom: 1.5rem;
+}
+
+hr { border: 0; border-top: 1px solid var(--rule); margin: 2rem 0; }
+
+code, pre {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.92em;
+}
+
+pre {
+  background: var(--card);
+  padding: 0.9rem 1rem;
+  overflow-x: auto;
+  border-radius: 6px;
+}
+
+.math {
+  font-family: "STIX Two Math", "Cambria Math", "Times New Roman", serif;
+  font-size: 1.1em;
+  background: var(--card);
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  overflow-x: auto;
+}
+
+/* Cards */
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.card {
+  display: block;
+  background: var(--card);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  padding: 1.1rem 1.2rem;
+  color: var(--fg);
+  text-decoration: none;
+}
+
+.card:hover { border-color: var(--accent); }
+.card h2 { margin: 0.2rem 0 0.5rem; font-size: 1.25rem; }
+.card p:last-child { margin-bottom: 0; color: var(--fg-2); }
+
+/* Callouts */
+
+.callout {
+  border-left: 4px solid var(--accent);
+  background: var(--card);
+  padding: 0.8rem 1rem;
+  margin: 1.25rem 0;
+  border-radius: 0 6px 6px 0;
+}
+
+.callout.red { border-left-color: var(--red); }
+
+.placeholder {
+  border: 1px dashed var(--amber);
+  background: var(--warn-bg);
+  padding: 0.7rem 1rem;
+  margin: 1.25rem 0;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+.placeholder::before {
+  content: "To fill in";
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 0.25rem;
+}
+
+/* Downloads and tables */
+
+.downloads { list-style: none; padding: 0; }
+.downloads li {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 0.75rem;
+  align-items: baseline;
+  padding: 0.55rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+.downloads li:first-child { border-top: 1px solid var(--rule); }
+.downloads .meta { color: var(--muted); font-size: 0.9rem; margin-left: auto; }
+
+table { border-collapse: collapse; width: 100%; margin: 1rem 0 1.5rem; font-size: 0.97rem; }
+th, td { text-align: left; padding: 0.45rem 0.6rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
+th { font-weight: 600; color: var(--fg-2); }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+.table-wrap { overflow-x: auto; }
+
+/* Help index */
+
+.help h2 { margin-top: 2rem; }
+.help ul { padding-left: 1.2rem; }
+.help .who { color: var(--muted); font-size: 0.92rem; }
+
+/* Quotes from the wall */
+
+.wall { display: grid; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); gap: 1rem; }
+.wall ul { list-style: none; padding: 0; margin: 0; }
+.wall li { padding: 0.5rem 0.75rem; margin-bottom: 0.5rem; border-radius: 4px; background: var(--card); font-style: italic; }
+.wall .worries li { border-left: 3px solid var(--red); }
+.wall .helped li { border-left: 3px solid var(--amber); }
+
+/* Footer */
+
+.site-footer {
+  border-top: 1px solid var(--rule);
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.site-footer .inner {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 1.25rem 1.25rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+}
+
+@media (max-width: 40rem) {
+  h1 { font-size: 1.8rem; }
+  .site-header nav { margin-left: 0; }
+  table { display: block; overflow-x: auto; max-width: 100%; }
+}
+
+@media print {
+  .site-header nav, .site-footer { display: none; }
+  main { max-width: none; padding: 0; }
+  a { color: inherit; text-decoration: none; }
+}
+
+/* Single-page additions */
+.site-footer .right { margin-left: auto; }

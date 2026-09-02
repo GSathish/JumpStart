@@ -1,0 +1,29 @@
+# Jekyll configuration for the Jumpstart site. GitHub Pages builds this
+# automatically; there is no plugin beyond what the github-pages gem provides.
+
+title: Jumpstart 2026
+description: Two sessions for first-year engineering students at UBC, and where to go afterwards.
+affiliation: Faculty of Applied Science, UBC
+contact: ""            # e-mail or URL for the footer; leave empty to hide
+
+# Set baseurl to "/<repo-name>" when the site is served as a project page
+# (https://<user>.github.io/<repo-name>/). Leave it empty for a user site or a
+# custom domain. Every internal link in the layout goes through relative_url,
+# so this is the only place the path lives.
+baseurl: ""
+url: ""
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter_opts:
+    disable: true
+
+exclude:
+  - README.md
+  - files/README.md
+  - Gemfile
+  - Gemfile.lock
+  - _deploy
+  - vendor

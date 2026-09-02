@@ -1,0 +1,44 @@
+# Use this ONLY if www/ lives inside a larger repository.
+# Copy it to <repo root>/.github/workflows/pages.yml, then in the repository
+# settings choose Pages > Build and deployment > Source: GitHub Actions.
+# If www/ is its own repository, delete this file; GitHub Pages builds Jekyll
+# from the branch without a workflow.
+
+name: Build and deploy the Jumpstart site
+
+on:
+  push:
+    branches: [main]
+    paths: ["www/**"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./www
+          destination: ./_site
+      - uses: actions/upload-pages-artifact@v3
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
