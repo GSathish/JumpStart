@@ -10,8 +10,8 @@ contact: ""            # e-mail or URL for the footer; leave empty to hide
 # (https://<user>.github.io/<repo-name>/). Leave it empty for a user site or a
 # custom domain. Every internal link in the layout goes through relative_url,
 # so this is the only place the path lives.
-baseurl: ""
-url: ""
+baseurl: "/JumpStart"
+url: "https://gsathish.github.io"
 
 markdown: kramdown
 kramdown:
