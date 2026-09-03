@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title and page.title != site.title %}{{ page.title }} &middot; {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{{ page.description | default: site.description }}">
+  <meta name="author" content="{{ site.author }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap">
@@ -39,6 +40,7 @@
   <footer class="site-footer">
     <div class="inner">
       <span>{{ site.title }} &middot; {{ site.affiliation }}</span>
+      <span>Made by <a href="mailto:{{ site.author_email }}">{{ site.author }}</a></span>
       {% if site.contact != "" %}<span>{{ site.contact }}</span>{% endif %}
       <span class="right">Updated {{ site.time | date: "%-d %B %Y" }}</span>
     </div>

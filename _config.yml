@@ -6,6 +6,10 @@ description: Two sessions for first-year engineering students at UBC, and where 
 affiliation: Faculty of Applied Science, UBC
 contact: ""            # e-mail or URL for the footer; leave empty to hide
 
+# Credited in the footer and in the page metadata.
+author: Sathish Gopalakrishnan
+author_email: sathish@ece.ubc.ca
+
 # Set baseurl to "/<repo-name>" when the site is served as a project page
 # (https://<user>.github.io/<repo-name>/). Leave it empty for a user site or a
 # custom domain. Every internal link in the layout goes through relative_url,
