@@ -34,8 +34,7 @@ be reused each September; keep cohort-specific material off them.
   Liquid still runs, so `relative_url` works inside.
 - **Downloads.** Put files in `files/` and link them with
   `{{ '/files/name.pdf' | relative_url }}` so the link survives a `baseurl`.
-  `files/` is currently empty; a download link to a missing file 404s with no
-  build error.
+  A download link to a missing file 404s with no build error.
 - **Footer.** `contact:` in `_config.yml` adds a contact line. The "Updated"
   date is the build date of the whole site, not of the page you are reading.
 
