@@ -1,0 +1,15 @@
+# Header navigation, one entry per page.
+#
+# `url` must match the page's permalink exactly, trailing slash included. The
+# layout compares it against page.url to mark the current page, and page.url
+# never contains the baseurl. Do not write the baseurl here; the layout adds it
+# with relative_url.
+
+- url: /
+  label: Overview
+- url: /going-further/
+  label: Going further
+- url: /how-to-study/
+  label: How to study
+- url: /help/
+  label: Get help
