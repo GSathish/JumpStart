@@ -12,7 +12,7 @@ UBC Applied Science &middot; September 2026
 Two 90-minute sessions for first-year engineering students, and the material that goes with them. Day 1 asks how a system behaves when everyone in it makes a sensible choice. Day 2 asks what happens when a machine is wrong and nobody notices.
 {: .lede}
 
-Together they make one argument: engineering is iterative work done by people inside systems, and learning engineering is iterative in the same way. By the end you should be able to describe engineering as problem-solving within human, technical, ethical and resource constraints; use a learning loop of attempt, check, explain, and attempt again; tell the difference between using a tool to support your learning and using it to avoid the learning; name one gap in your own mathematical readiness; and name one person or resource you will actually turn to when you are stuck.
+Both days rest on one claim: engineering advances by repeated attempts rather than by getting things right the first time, and learning engineering works the same way. By the end you should be able to describe engineering as problem-solving within human, technical, ethical and resource constraints; use a learning loop of attempt, check, explain, and attempt again; tell the difference between using a tool to support your learning and using it to avoid the learning; name one gap in your own mathematical readiness; and name one person or resource you will actually turn to when you are stuck.
 
 ## What we worked out on Day 1
 
