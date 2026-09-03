@@ -19,12 +19,12 @@ Studying, checked against the evidence
 
 # How to study
 
-Every year the room is asked what got them through high school, and every year the two most common answers are studying with other people and not leaving it to the last minute. Those are also the two best-evidenced answers in the literature. This page is what else that literature says.
+Asked what got them through high school, students name two things more often than anything else: studying with other people, and not leaving the work to the last minute. Both are well supported by the research on how people learn. This page covers what else that research says.
 {: .lede}
 
 ## What actually works {#works}
 
-The most useful review of this is Dunlosky and colleagues, who rated ten common study techniques by how well they hold up across materials, students, and testing conditions. The result is uncomfortable, because the two techniques nearly everyone uses come out at the bottom.
+The most useful review of this is Dunlosky and colleagues, who rated ten common study techniques by how well they hold up across materials, students, and testing conditions. The two techniques most students report using come out at the bottom of that ranking.
 
 **High utility.** *Practice testing* and *distributed practice*. Testing yourself, without notes, and spreading the work across days rather than massing it the night before.
 
@@ -35,7 +35,7 @@ The most useful review of this is Dunlosky and colleagues, who rated ten common 
 John Dunlosky, Katherine Rawson, Elizabeth Marsh, Mitchell Nathan and Daniel Willingham, *Improving Students' Learning With Effective Learning Techniques*, Psychological Science in the Public Interest 14(1), 2013, 4 to 58. doi:10.1177/1529100612453266
 {: .source}
 
-There is a reason the low-utility techniques feel effective. Roediger and Karpicke had students either restudy a passage or test themselves on it. Five minutes later, restudying won. A week later, testing won by a wide margin, and the students who had restudied were the more confident of the two groups. Fluency while you are studying is not evidence of retention, and it is systematically misleading in the direction that costs you the exam.
+The low-utility techniques feel effective for a reason. Roediger and Karpicke had students either restudy a passage or test themselves on it. On a test five minutes later, the students who had restudied did better. On a test a week later, the students who had tested themselves did substantially better, and the restudy group had been the more confident of the two. How fluent the material feels while you are studying is a poor predictor of whether you will still have it at the exam, and it errs in the direction that costs you marks.
 
 Henry Roediger and Jeffrey Karpicke, *Test-Enhanced Learning*, Psychological Science 17(3), 2006, 249 to 255. doi:10.1111/j.1467-9280.2006.01693.x
 {: .source}
@@ -53,7 +53,7 @@ Four steps, in this order. Each one catches something the previous step missed.
 4. **Attempt a new version** later, from cold, without the notes.
 </div>
 
-Skipping step one is the expensive mistake, because it removes the information that the other three steps operate on. If you read the solution first, you cannot tell afterwards whether you could have produced it.
+Skipping the first step is expensive, because it removes the information the other three steps work on. If you read the solution before attempting the problem, you have no way of telling afterwards whether you could have produced it yourself.
 
 ### Four questions before you use an AI tool on coursework
 
@@ -64,45 +64,45 @@ Skipping step one is the expensive mistake, because it removes the information t
 4. **Proof.** Can I now solve a new version unaided, explain the reasoning, and spot a plausible-looking error in it?
 </div>
 
-The fourth question is the one that matters. A correct answer you cannot reconstruct is not yet knowledge, whether it came from a model, a friend, or the back of the book.
+The fourth question is the one that decides the case, and it applies equally to an answer that came from a model, from a friend, or from the back of the book.
 
 ## Sleep, focus, motivation, habits {#body}
 
-Andrew Huberman's podcast is the most accessible route into this material, and the episodes below are worth your time. Each is paired with the kind of source it rests on. Read the paper when a claim starts to matter to a decision you are making; the episode is the introduction, the paper is the evidence.
+Andrew Huberman's podcast is the most accessible route into this material, and each episode below covers its topic at length. Each is paired with the kind of source it rests on. The episode will introduce the idea and the paper is where the evidence for it actually sits, so read the paper once a claim starts to matter to a decision you are making.
 
 ### Sleep
 
-Sleep is the single item on this page with the most direct measured effect on your grades, and the finding is not the one people expect. Okano and colleagues gave activity trackers to students in an introductory chemistry class and correlated their sleep with their quiz and midterm marks. Sleep quality, duration and consistency across the **month and the week before** a test predicted performance, accounting for roughly a quarter of the variance in results. Sleep on the **night before** the test predicted nothing at all.
+Of everything on this page, sleep has the most directly measured effect on grades, and the measurement is not the one most students expect. Okano and colleagues gave activity trackers to students in an introductory chemistry class and correlated their sleep with their quiz and midterm marks. Sleep quality, duration and consistency across the **month and the week before** a test predicted performance, accounting for roughly a quarter of the variance in results. Sleep on the **night before** the test predicted nothing at all.
 
-You cannot repay a term of bad sleep the night before the exam, and staying up late that one night is not where the damage is done. The damage is done across the weeks nobody is watching.
+A term of bad sleep cannot be repaid the night before the exam. The cost accumulates over the weeks beforehand, when nothing appears to be going wrong.
 
 Kana Okano et al., *Sleep quality, duration, and consistency are associated with better academic performance in college students*, npj Science of Learning 4:16, 2019. doi:10.1038/s41539-019-0055-z &middot; Huberman Lab: [Master Your Sleep & Be More Alert When Awake](https://www.hubermanlab.com/episode/master-your-sleep-and-be-more-alert-when-awake) and the [Toolkit for Sleep](https://www.hubermanlab.com/newsletter/toolkit-for-sleep).
 {: .source}
 
 ### Focus and attention
 
-Sana, Weston and Cepeda ran a simulated lecture in which some students multitasked on a laptop. Those students scored lower on the test afterwards. So did the students who had merely been sitting in view of a multitasking screen and were not multitasking themselves. Where you sit is part of your study environment, and so is what your neighbour is doing.
+Sana, Weston and Cepeda ran a simulated lecture in which some students multitasked on a laptop. Those students scored lower on the test afterwards. So did students who were not multitasking themselves but were sitting where they could see someone else's screen. What your neighbour is doing is part of your study environment, so it is a consideration when you choose a seat.
 
 Faria Sana, Tina Weston and Nicholas Cepeda, *Laptop multitasking hinders classroom learning for both users and nearby peers*, Computers & Education 62, 2013, 24 to 31. doi:10.1016/j.compedu.2012.10.003 &middot; Huberman Lab: [Focus Toolkit](https://www.hubermanlab.com/episode/focus-toolkit-tools-to-improve-your-focus-and-concentration).
 {: .source}
 
 ### Procrastination
 
-Steel's meta-analysis pulled together 691 correlations and found that the strongest predictors of procrastination are task aversiveness, how far away the deadline is, self-efficacy, and impulsiveness. Neuroticism and perfectionism, the traits people usually blame, barely register. That is good news: the levers that work are situational. Make the task less aversive, move the deadline closer by inventing an interim one, and raise your confidence by starting with a piece you know you can finish.
+Steel's meta-analysis pulled together 691 correlations and found that the strongest predictors of procrastination are task aversiveness, how far away the deadline is, self-efficacy, and impulsiveness. Neuroticism and perfectionism, the traits usually blamed, barely register. That matters because it means the things you can change are situational rather than dispositional. You can make the task less aversive, invent an interim deadline that is closer than the real one, and start with a piece you are confident you can finish.
 
 Piers Steel, *The Nature of Procrastination*, Psychological Bulletin 133(1), 2007, 65 to 94. doi:10.1037/0033-2909.133.1.65 &middot; Huberman Lab: [Leverage Dopamine to Overcome Procrastination & Optimize Effort](https://www.hubermanlab.com/episode/leverage-dopamine-to-overcome-procrastination-and-optimize-effort).
 {: .source}
 
 ### Stress, in the moment
 
-Balban and colleagues ran a randomised trial of three five-minute daily breathing practices against mindfulness meditation for a month. The exhale-focused one, cyclic sighing, produced the largest improvement in mood and the largest drop in respiratory rate. The technique is one double inhale through the nose followed by a long, slow exhale through the mouth, repeated. It takes about thirty seconds and works before a midterm, before a presentation, or in a stairwell.
+Balban and colleagues ran a randomised trial of three five-minute daily breathing practices against mindfulness meditation for a month. The exhale-focused one, cyclic sighing, produced the largest improvement in mood and the largest drop in respiratory rate. The technique is a double inhale through the nose followed by a long, slow exhale through the mouth, repeated. It takes about thirty seconds and needs no equipment, space, or privacy.
 
 Melis Balban et al., *Brief structured respiration practices enhance mood and reduce physiological arousal*, Cell Reports Medicine 4(1), 2023. doi:10.1016/j.xcrm.2022.100895 &middot; Huberman Lab: [Tools for Managing Stress & Anxiety](https://www.hubermanlab.com/episode/tools-for-managing-stress-and-anxiety).
 {: .source}
 
 ### Habits
 
-You have heard that a habit takes 21 days. Lally and colleagues actually measured it: 96 people, one new daily behaviour each, tracked for twelve weeks. The time to reach 95% of maximum automaticity ranged from **18 to 254 days**, with a median around 66. There is no magic number, and missing a single day did not measurably harm the process. If you are three weeks into a new study routine and it still feels like effort, nothing has gone wrong.
+You have heard that a habit takes 21 days. Lally and colleagues actually measured it: 96 people, one new daily behaviour each, tracked for twelve weeks. The time to reach 95% of maximum automaticity ranged from **18 to 254 days**, with a median around 66. Missing a single day did not measurably harm the process. If you are three weeks into a new study routine and it still feels like effort, that is within the range they measured.
 
 Phillippa Lally, Cornelia van Jaarsveld, Henry Potts and Jane Wardle, *How are habits formed: Modelling habit formation in the real world*, European Journal of Social Psychology 40(6), 2010, 998 to 1009. doi:10.1002/ejsp.674 &middot; Huberman Lab: [The Science of Making & Breaking Habits](https://www.hubermanlab.com/episode/the-science-of-making-and-breaking-habits).
 {: .source}
@@ -128,6 +128,6 @@ First-year math, physics, chemistry and engineering courses all lean on the same
 
 </div>
 
-The last row is the habit that generalises. Every worked answer gets one question before you write it down: is that a size the world could produce?
+The last row generalises to everything else in the table. Before you write an answer down, check whether it is a size the physical world could produce.
 
-If any row is genuinely shaky, that is a specific, fixable gap and it is worth an hour in week two rather than a term of friction. The [help page]({{ '/help/' | relative_url }}) says where to take it.
+If any row is shaky, that is a specific and fixable gap, and an hour on it in week two saves a term of friction. The [help page]({{ '/help/' | relative_url }}) says where to take it.

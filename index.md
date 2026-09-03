@@ -9,7 +9,7 @@ UBC Applied Science &middot; September 2026
 
 # Jumpstart 2026
 
-Two 90-minute sessions for first-year engineering students. The slides run the room; this page holds what you need afterwards. Day 1 asks how a system behaves when everyone in it makes a sensible choice. Day 2 asks what happens when a machine is wrong and nobody notices.
+Two 90-minute sessions for first-year engineering students, and the material that goes with them. Day 1 asks how a system behaves when everyone in it makes a sensible choice. Day 2 asks what happens when a machine is wrong and nobody notices.
 {: .lede}
 
 Together they make one argument: engineering is iterative work done by people inside systems, and learning engineering is iterative in the same way. By the end you should be able to describe engineering as problem-solving within human, technical, ethical and resource constraints; use a learning loop of attempt, check, explain, and attempt again; tell the difference between using a tool to support your learning and using it to avoid the learning; name one gap in your own mathematical readiness; and name one person or resource you will actually turn to when you are stuck.
@@ -38,7 +38,7 @@ Setting the derivative to zero gives *y* = 22: twenty-three people on the upper 
 
 </div>
 
-The system optimum and the voluntary equilibrium are different places, and only one of them happens on its own. The derivative gave us an answer; it did not choose the question.
+The system optimum and the voluntary equilibrium are different arrangements, and only one of them happens on its own. The derivative told us which arrangement minimises total travel time. It did not tell us that total travel time was the right thing to minimise, and that choice was ours.
 
 Three questions to take home:
 
@@ -51,7 +51,7 @@ Three questions to take home:
 <div class="cards">
   <a class="card" href="{{ '/going-further/' | relative_url }}">
     <h2>Going further</h2>
-    <p>Where the route problem leads, seven engineering failures worth knowing, and what to read.</p>
+    <p>Where the route problem leads, seven engineering failures and what each of them cost, and what to read.</p>
   </a>
   <a class="card" href="{{ '/how-to-study/' | relative_url }}">
     <h2>How to study</h2>
