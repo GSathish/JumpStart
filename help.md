@@ -49,12 +49,6 @@ The Math Learning Centre is explicit that it is not there to check your answers.
 - [Engineering Academic Services](https://academicservices.engineering.ubc.ca/): advising on course loads, deadlines, and what to do when a term goes wrong.
 - Drop and withdrawal dates are in the [Academic Calendar](https://vancouver.calendar.ubc.ca/). Know them before you need them; the difference between a W and a failed course is a date.
 
-### Where the second-year placement rules actually live
-
-More worry goes into program placement than into anything else in first year, and most of it runs on rumour. The authoritative page is [Engineering Program Placement](https://academicservices.engineering.ubc.ca/degree-planning/program-placement/), run by Engineering Academic Services. Placement uses your Winter session average together with a personal statement; the preference form opens in mid-March, rankings are due in mid-May, and placements are sent out in late June. Historical entrance averages by program are published there too, which is a better guide than anything you will hear in a hallway.
-
-Check the dates on that page rather than these; they move. Nothing on this site changes the rules, and neither does anything anyone tells you at a party.
-
 ## I want to find my people {#people}
 
 Making friends is the most common first-year goal students write down, and worrying about not making them is one of the most common worries. They are the same problem, and it is worth treating as deliberately as a problem set.

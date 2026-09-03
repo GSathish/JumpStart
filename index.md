@@ -59,7 +59,7 @@ Three questions to take home:
   </a>
 </div>
 
-And when you are stuck, [get help]({{ '/help/' | relative_url }}). It is organised by the moment you need it, and it says where the second-year placement rules actually live.
+And when you are stuck, [get help]({{ '/help/' | relative_url }}). It is organised by the moment you need it rather than by which office runs it.
 
 ## Handouts
 
