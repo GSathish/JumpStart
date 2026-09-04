@@ -61,13 +61,10 @@ Three questions to take home:
 
 And when you are stuck, [get help]({{ '/help/' | relative_url }}). It is organised by the moment you need it rather than by which office runs it.
 
-## Slides and handouts
+## Slides
 
 <ul class="downloads">
   <li><a href="{{ '/files/jumpstart-2026-day1-slides.pdf' | relative_url }}">Day 1 slides: How systems behave</a><span class="meta">PDF, 34 pages, 1.4&nbsp;MB</span></li>
   <li><a href="{{ '/files/jumpstart-2026-day2-slides.pdf' | relative_url }}">Day 2 slides: When systems go wrong</a><span class="meta">PDF, 50 pages, 0.9&nbsp;MB</span></li>
   <li><a href="{{ '/files/jumpstart-2026-neural-networks-slides.pdf' | relative_url }}">Extra deck: How a neural network learns</a><span class="meta">PDF, 23 pages, 88&nbsp;KB</span></li>
 </ul>
-
-The field guides will be posted here.
-{: .placeholder}
