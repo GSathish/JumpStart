@@ -170,9 +170,9 @@ Nick Perham and Joanne Vizard, *Can preference for background music mediate the 
 
 ### The frustration barrier
 
-Every skill worth having has a stretch early on where you are visibly bad at it and progress is not obvious. That stretch is where most people quit, and quitting there gets rationalised as a discovery about yourself: that you are not a maths person, or not a coding person. It is worth naming in advance, because you will meet it in first year and the story it tells about you is not true.
+Early practice can be frustrating because you cannot yet do enough to see progress. A difficult problem set may leave you thinking that you are not a maths person or a coding person, even though it gives you little evidence about what you could do with more practice and help.
 
-What helps is unglamorous. Expect to be bad at the start and treat that as information rather than as a verdict. Work near people who are further along. Practise the specific thing you cannot do rather than the parts you can already manage.
+Identify the step you cannot do and ask someone more experienced to work through it with you. Then try a similar problem on your own. The discussion of [early frustration and changing direction]({{ '/going-further/' | relative_url }}#practice) explains how this relates to choosing a field, including when to reconsider a plan.
 
 ### Grit, with the caveat
 

@@ -51,7 +51,7 @@ Three questions to take home:
 <div class="cards">
   <a class="card" href="{{ '/going-further/' | relative_url }}">
     <h2>Going further</h2>
-    <p>Where the route problem leads, seven engineering failures and what each of them cost, and what to read.</p>
+    <p>Exploring your interests before choosing a path. Further discussion of learning and engineering, with case histories and reading.</p>
   </a>
   <a class="card" href="{{ '/how-to-study/' | relative_url }}">
     <h2>How to study</h2>
