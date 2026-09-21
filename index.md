@@ -9,24 +9,30 @@ UBC Applied Science &middot; September 2026
 
 # Jumpstart 2026
 
-Two 90-minute sessions for first-year engineering students, and the material that goes with them. Day 1 asks how a system behaves when everyone in it makes a sensible choice. Day 2 asks what happens when a machine is wrong and nobody notices.
+Jumpstart consists of two 90-minute sessions for first-year engineering students at the University of British Columbia (UBC). Day 1 examines how individual choices affect a shared system. Day 2 examines failures in machines and the checks that can detect them.
 {: .lede}
 
-Both days rest on one claim: engineering advances by repeated attempts rather than by getting things right the first time, and learning engineering works the same way. By the end you should be able to describe engineering as problem-solving within human, technical, ethical and resource constraints; use a learning loop of attempt, check, explain, and attempt again; tell the difference between using a tool to support your learning and using it to avoid the learning; name one gap in your own mathematical readiness; and name one person or resource you will actually turn to when you are stuck.
+In both sessions, we attempt a problem, examine the result, and revise our reasoning. This process connects engineering work to the practice of learning it. The sessions have five learning objectives:
+
+- Describe engineering as problem-solving within human, technical, ethical and resource constraints.
+- Use a learning loop of attempt, feedback, explanation and a further attempt.
+- Distinguish using a tool to support learning from using it to avoid an attempt.
+- Identify a skill in your mathematical preparation that needs practice.
+- Identify a person or resource to consult when you need help.
 
 ## What we worked out on Day 1
 
 Sixty-eight people had to get from A to B. Two routes were available. Each route had one road that took a fixed 45 minutes and one road whose time depended on how many people used it: a road marked *n*/2 costs 10 minutes if 20 people take it. Everyone chose a route from their seats, and the room counted.
 
-**Round 1.** The room split 34 and 34. Each route took 62 minutes. No single person could do better by switching, which is what makes that split an equilibrium.
+In the first round, 34 people chose each route, giving a travel time of 62 minutes on both. No individual could reduce their travel time by switching routes. This is an **equilibrium**: each person has chosen a route they have no incentive to leave while the others keep their choices.
 
-**Round 2.** The city added a zero-minute shortcut joining the two variable roads. For any one commuter the shortcut always looks faster. Everyone took it, both variable roads filled to 68 people, and every trip took 68 minutes. A free road made every commuter six minutes late.
+In the second round, we added a zero-minute shortcut between the two roads whose travel times depended on traffic. Each commuter could reduce their own travel time by choosing the shortcut. Once everyone chose it, however, both roads carried 68 people and every trip took 68 minutes. Adding the shortcut increased the equilibrium travel time by six minutes.
 
-Then we used calculus. Let *y* people use the shortcut and split the rest evenly between the two ordinary routes. Total travel time, in person-minutes, is
+We then used calculus to find the assignment that minimises total travel time. Let *y* people use the shortcut and divide the remaining people equally between the two ordinary routes. Under this assignment, total travel time in person-minutes is
 
 <p class="math">T(y) = (68 &minus; y)(62 + y&frasl;4) + y(34 + y&frasl;2) = 4216 &minus; 11y + y&sup2;&frasl;4.</p>
 
-Setting the derivative to zero gives *y* = 22: twenty-three people on the upper route, twenty-two on the shortcut, twenty-three on the lower, for an average of 60.2 minutes. That assignment is not stable. The 46 people on the ordinary routes spend 67.5 minutes each, and any one of them gains by switching to the shortcut.
+Setting the derivative to zero gives *y* = 22: twenty-three people on the upper route, twenty-two on the shortcut, twenty-three on the lower, for an average of 60.2 minutes. This assignment is not an equilibrium because the 46 people on the ordinary routes each spend 67.5 minutes travelling and could shorten their trips by switching to the shortcut.
 
 <div class="table-wrap" markdown="1">
 
@@ -38,9 +44,9 @@ Setting the derivative to zero gives *y* = 22: twenty-three people on the upper 
 
 </div>
 
-The system optimum and the voluntary equilibrium are different arrangements, and only one of them happens on its own. The derivative told us which arrangement minimises total travel time. It did not tell us that total travel time was the right thing to minimise, and that choice was ours.
+The calculation identifies an assignment with a lower total travel time than either equilibrium. Maintaining it would require a way to influence route choices, because some commuters would otherwise benefit from switching. The choice to minimise total travel time is also a modelling decision: it gives equal weight to each minute travelled without limiting how much time any particular commuter spends.
 
-Three questions to take home:
+Use the route example to consider the following questions about design responsibility:
 
 1. Where else does adding capacity, budget, or a new option make a system worse for everyone in it?
 2. Who in the Round 2 room could have fixed the outcome, and what would it have cost them?
@@ -51,15 +57,15 @@ Three questions to take home:
 <div class="cards">
   <a class="card" href="{{ '/going-further/' | relative_url }}">
     <h2>Going further</h2>
-    <p>Exploring your interests before choosing a path. Further discussion of learning and engineering, with case histories and reading.</p>
+    <p>Explore a choice of specialisation, examine engineering failures, and follow the route problem to further results.</p>
   </a>
   <a class="card" href="{{ '/how-to-study/' | relative_url }}">
     <h2>How to study</h2>
-    <p>What the evidence says about studying, and about the sleep and attention it runs on.</p>
+    <p>Use practice and feedback to assess your learning, with research on study methods, attention and sleep.</p>
   </a>
 </div>
 
-And when you are stuck, [get help]({{ '/help/' | relative_url }}). It is organised by the moment you need it rather than by which office runs it.
+For course questions and student support, [get help]({{ '/help/' | relative_url }}). The page groups resources by the kind of help you need.
 
 ## Slides
 

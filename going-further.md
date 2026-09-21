@@ -25,16 +25,18 @@ Beyond the two sessions
 
 # Going further
 
-First year gives you experience to draw on when choosing what to study next. The discussion below starts with how to use that experience, including what happens when you commit to a path before exploring it. It also extends the route-choice problem and examines engineering failures and near misses.
+Choosing a specialisation requires some knowledge of the work it involves. First-year courses and projects can help you acquire that knowledge, provided you examine what you have learned from them. We begin with this choice, then return to the engineering problems and case histories introduced in the sessions.
 {: .lede}
 
-## Choosing a path before you have explored it {#identity}
+## Exploring before committing to a path {#identity}
 
-You may arrive at university already saying that you will be a mechanical engineer, work in software, or go to graduate school. A plan gives you something to work towards. But you may know much more about the title than about the work, especially when the plan comes from family expectations or what your friends want to do.
+Suppose you arrive at university intending to study mechanical engineering because you like cars. You know which vehicles interest you, but you have not yet worked on a mechanical design. Your interest gives you a reason to investigate the field. It gives you less information about whether you would enjoy the work involved.
 
-James Marcia called commitment without exploring alternatives **identity foreclosure**. His framework distinguishes commitment from the process of examining possible choices. You can sound certain about a career without having considered what attracts you to it. You can also be uncertain while actively learning enough to make a choice.
+A design project can make that distinction clearer. Working on a suspension assembly might confirm your interest in mechanical design. You might instead find that you prefer writing the software that reads the sensors. In either case, you have examined a part of the work and can use that experience when deciding what to study next.
 
-The four categories describe different relationships between exploration and commitment:
+James Marcia distinguished two aspects of such decisions: **exploration**, the consideration of meaningful alternatives, and **commitment**, the investment in a choice. He used **identity foreclosure** to describe commitment without exploration. For example, a student might rule out other specialisations because they have always described themselves as a future mechanical engineer, without examining what that choice involves.
+
+Marcia's framework distinguishes four identity statuses by how exploration and commitment relate:
 
 <div class="table-wrap" markdown="1">
 
@@ -47,36 +49,32 @@ The four categories describe different relationships between exploration and com
 
 </div>
 
-Marcia's original study involved 86 male college students. Use the categories here to reflect on a decision; they are not a test of which specialisation suits you or a timetable for deciding your future.
+These categories distinguish uncertainty during exploration from a decision that has received little consideration. They do not identify which specialisation suits a student. Marcia's original study involved 86 male college students; it does not establish a timetable by which you should decide your future.
 
 James E. Marcia, [*Development and validation of ego-identity status*](https://doi.org/10.1037/h0023281), Journal of Personality and Social Psychology 3(5), 1966, 551 to 558.
 {: .source}
 
-### Try the work before choosing a specialisation
+For a choice you are considering, identify something you still need to learn about the work. You could ask a design team about a beginner task or ask an upper-year student to describe a recent project. Include the routine work in that conversation: an account of debugging a sensor may tell you more about the project than a demonstration of the finished vehicle. Afterwards, record which activities you would like to try again and why.
 
-Suppose you want to study mechanical engineering because you like cars. Working on a design team's suspension assembly might confirm that interest. You might instead discover that you prefer writing the software that reads the sensors. Either experience gives you a more specific reason for your next choice than liking the finished car does.
-
-Choose a manageable way to investigate an interest this term. Attend a team meeting and ask about a beginner task, or ask an upper-year student to walk you through a recent project, including the routine work and the parts that went badly. Afterwards, write down what you enjoyed doing and what you would like to try again. A department's name tells you less than an account of how someone spent their week.
-
-You may finish this process wanting exactly what you wanted at the start. That is a reasonable outcome: you now have experience behind the choice. Family advice and concerns about earning a living also deserve consideration. Exploring means examining those reasons alongside your own experience.
+Exploration need not lead to a different choice. You may retain your original plan because experience has confirmed your interest. Family advice and the need to earn a living can also inform the decision. The purpose is to examine those reasons alongside what you have learned about the work.
 
 ## Early frustration and changing direction {#practice}
 
-A first programming assignment can take hours because you are still learning how to read an error message. That experience alone tells you little about whether you will enjoy programming once you can debug a small program. The **frustration barrier** is this early stretch when you cannot yet do enough of an activity to judge what it offers.
+Trying unfamiliar work creates a difficulty of its own: your first experience may consist mostly of mistakes. A programming assignment can take hours because you are still learning to interpret error messages. That experience shows what you cannot yet do, but it provides limited evidence about whether you will enjoy programming with more experience. We use **frustration barrier** here to describe this early difficulty.
 
-Before drawing a conclusion about your ability, identify one part you cannot do and practise it with feedback. For debugging, that might mean predicting the value of a variable, running the program, and explaining why the value differed. Ask someone more experienced to show you how they investigate a mistake. The [learning loop]({{ '/how-to-study/' | relative_url }}#loop) gives you a sequence to follow.
+To investigate the difficulty, choose a specific task and practise it with feedback. For debugging, ask someone more experienced to explain how they locate an error. Then use that method on another problem and explain why the program behaved differently from your prediction. This gives you a way to assess progress: you can check whether you now solve a problem that previously stopped you. The [learning loop]({{ '/how-to-study/' | relative_url }}#loop) describes this process in more detail.
 
-After some practice and help, you may find that you can do the work but have little interest in continuing it. You may also discover an interest that your original plan leaves no room for. Those are reasons to reconsider the plan. An early setback and a sustained dislike of the work give you different information.
+Practice also gives you better information about your interests. You may become able to do the work and still have little interest in continuing it, or find that another part of the project interests you more. These are reasons to reconsider your plan. An initial difficulty is less informative because it is hard to separate your response to the work from your response to being unfamiliar with it.
 
-Changing direction can have costs. Before changing your course load or taking time away, talk with [Engineering Academic Services]({{ '/help/' | relative_url }}#behind) about how the options affect your degree. You can take your current work seriously while reconsidering where it leads.
+A change of direction may affect your course sequence or the time needed to complete your degree. Before changing your course load or taking time away, discuss the options with [Engineering Academic Services]({{ '/help/' | relative_url }}#behind). That conversation can help you assess the consequences of a change alongside your reasons for making it.
 
-## Practise explaining your work {#communication}
+## Explaining assumptions and results {#communication}
 
-When a teammate uses your calculation, they need to know what you assumed and when the result applies. An answer without that explanation is difficult to check. Writing and speaking give other people enough information to question your reasoning or use it in their own work.
+The route-choice calculation gives us an example of why an engineering result needs an explanation. We found that assigning 22 people to the shortcut minimises total travel time. A reader given only that number would not know that the remaining 46 people must split evenly between the other routes, or that those people could shorten their own trips by switching. The proposed assignment therefore needs both a calculation and an account of how it would be maintained.
 
-After solving a problem, write a short explanation for someone who missed the class. State the problem and the assumptions, then explain why you chose the method. Include a check, such as the units or the behaviour in a limiting case. Read it aloud to a classmate and ask them to identify a step they could not follow. Revise that step before adding more detail elsewhere.
+When you explain a solution, state the problem and the assumptions before describing the method. Then interpret the result: say what it establishes and what remains unresolved. For the route problem, minimising total travel time establishes an assignment under the model's assumptions. It leaves open how to persuade people to follow that assignment.
 
-You can practise within a lab report or a design-team update. Both give you a reader who needs to understand the explanation and can tell you where it falls short.
+You can practise this explanation in a lab report or a design-team update. Ask a classmate to read it and identify a step they cannot follow. Revise that step, then ask them to explain the result back to you. Their explanation gives you evidence about what your writing communicated and which assumptions you still need to make explicit.
 
 ## Where the route problem goes next {#braess}
 
@@ -104,35 +102,35 @@ Nancy Leveson and Clark Turner, *An Investigation of the Therac-25 Accidents*, I
 
 ### Ariane 5 Flight 501, 4 June 1996
 
-Thirty-seven seconds after the start of the main engine ignition sequence, the launcher lost all guidance and attitude information and destroyed itself. The inertial reference system had converted a 64-bit floating-point value, the horizontal bias, into a 16-bit signed integer. The value did not fit. The conversion had been left unprotected because an analysis showed the overflow could not occur, and that analysis was correct for the Ariane 4 trajectory. Ariane 5 flew a different trajectory. The code was correct against the assumptions it was written under, and nobody re-checked those assumptions when the launcher changed.
+Thirty-seven seconds after the start of the main engine ignition sequence, the launcher lost all guidance and attitude information and destroyed itself. The inertial reference system had converted a 64-bit floating-point value, the horizontal bias, into a 16-bit signed integer. The value exceeded the integer range. Engineers had left the conversion unprotected because their analysis of the Ariane 4 trajectory ruled out an overflow. Ariane 5 flew a different trajectory, so that analysis no longer justified the decision. The failure followed from reusing the code without re-examining the assumption that made the conversion safe.
 
 *Ariane 5: Flight 501 Failure*, Report by the Inquiry Board, Paris, 19 July 1996.
 {: .source}
 
 ### Hyatt Regency walkways, Kansas City, 17 July 1981
 
-Two suspended walkways in the hotel atrium collapsed during a crowded tea dance, killing 114 people and injuring more than 200. The original design hung both walkways from a single continuous set of rods. During fabrication that was changed to two shorter rods, one from the ceiling to the upper walkway and a second from the upper walkway to the lower. On a drawing the change is almost invisible, and it doubled the load carried by the upper walkway's box beam connection, which had not been designed to take it. The change was made for ease of fabrication, and the review that should have caught it did not.
+Two suspended walkways in the hotel atrium collapsed during a crowded tea dance, killing 114 people and injuring more than 200. The original design hung both walkways from a single continuous set of rods. During fabrication that was changed to two shorter rods, one from the ceiling to the upper walkway and a second from the upper walkway to the lower. This change doubled the load on the upper walkway's box beam connection, which had not been designed to carry it. The change simplified fabrication, but the review did not identify its effect on the load.
 
 Marshall et al., *Investigation of the Kansas City Hyatt Regency Walkways Collapse*, NBS Building Science Series 143, National Bureau of Standards, 1982.
 {: .source}
 
 ### Lac-Mégantic, Quebec, 6 July 2013
 
-An unattended freight train carrying petroleum crude oil rolled downgrade into the centre of town. Sixty-three tank cars derailed, the oil ignited, and 47 people died. No single person caused it. The Transportation Safety Board identified eighteen contributing factors: too few handbrakes applied and no effective test of whether they held, a locomotive shut down after a fire left no air brakes, tank cars that breached readily, a safety management system the regulator had not adequately audited, and a company operating with thin margins on a line it had bought cheaply. Each of those defences was present in some form and each was thin enough to fail.
+An unattended freight train carrying petroleum crude oil rolled downgrade into the centre of town. Sixty-three tank cars derailed, the oil ignited, and 47 people died. The Transportation Safety Board identified eighteen contributing factors, including too few handbrakes applied and no effective test of whether they held, a locomotive shut down after a fire left no air brakes, tank cars that breached readily, a safety management system the regulator had not adequately audited, and a company operating with thin margins on a line it had bought cheaply. The report examines how failures in securing the train combined with equipment limitations and inadequate oversight.
 
 Transportation Safety Board of Canada, Railway Investigation Report R13D0054, 2014.
 {: .source}
 
 ### Citicorp Center, New York, 1978
 
-A year after the tower opened, its structural engineer, William LeMessurier, was asked by an undergraduate writing a thesis, Diane Hartley, about the building's behaviour under winds striking it at an angle. Checking, he found that a change made during construction, bolted rather than welded joints, left the tower vulnerable to a quartering wind of a kind expected roughly once every sixteen years if its tuned mass damper lost power. The joints were welded, at night, while the building stayed open. A newspaper strike meant almost nobody heard about it, and the episode stayed quiet for seventeen years. A question from outside the project prompted the engineer to re-examine the design.
+A year after the tower opened, its structural engineer, William LeMessurier, was asked by an undergraduate writing a thesis, Diane Hartley, about the building's behaviour under winds striking it at an angle. His check found that the use of bolted joints in place of the specified welded joints left the tower vulnerable to a quartering wind of a kind expected roughly once every sixteen years if its tuned mass damper lost power. Crews welded the joints at night while the building stayed open. A newspaper strike meant almost nobody heard about it, and the episode stayed quiet for seventeen years. A question from outside the project prompted the engineer to re-examine the design.
 
 Joe Morgenstern, *The Fifty-Nine-Story Crisis*, The New Yorker, 29 May 1995.
 {: .source}
 
 ### Tacoma Narrows Bridge, 7 November 1940
 
-The bridge twisted itself apart in a 68 km/h wind four months after opening. Physics textbooks still describe this as forced resonance, wind supplying a periodic push that matched the structure's natural frequency. It was not. The failure was aerodynamically induced self-excitation in torsion, a negative-damping instability now called flutter, in which the motion of the deck generates the very forces that amplify it. Resonance and self-excitation are different phenomena with different mathematics. Aeronautical engineers already understood flutter in 1940, but bridge engineers were not reading the aeronautical literature.
+The bridge twisted itself apart in a 68 km/h wind four months after opening. Billah and Scanlan examine textbook accounts that attribute the failure to forced resonance: a periodic force matching the structure's natural frequency. They explain the failure as **flutter**, an instability in which the deck's twisting motion changes the aerodynamic forces in a way that increases the motion. This mechanism differs from an external periodic force driving the bridge at its natural frequency. Aeronautical engineers already understood flutter in 1940, but bridge engineers were not reading the aeronautical literature.
 
 K. Yusuf Billah and Robert Scanlan, *Resonance, Tacoma Narrows bridge failure, and undergraduate physics textbooks*, American Journal of Physics 59(2), 1991, 118 to 124.
 {: .source}
@@ -141,7 +139,7 @@ K. Yusuf Billah and Robert Scanlan, *Resonance, Tacoma Narrows bridge failure, a
 
 The south cantilever of what would have been the world's longest bridge span buckled and fell into the St Lawrence. Seventy-five of the 86 workers on the span died, 33 of them Mohawk ironworkers from Kahnawake. The Royal Commission found that the consulting engineer, Theodore Cooper, had underestimated the structure's dead weight and never corrected it, and that he supervised from New York and visited rarely. The compression chords had been visibly bending for days. Nobody on site had both the authority and the standing to stop the work.
 
-This is the failure behind the Iron Ring, worn by Canadian engineers since the Ritual of the Calling of an Engineer began in 1925. You will be told at some point that the rings were forged from the wreckage. They were not. The first ones were made by veterans at the Christie Street Military Hospital in Toronto.
+This is the failure behind the Iron Ring, worn by Canadian engineers since the Ritual of the Calling of an Engineer began in 1925. The first rings were made by veterans at the Christie Street Military Hospital in Toronto, rather than forged from the bridge wreckage as a common account claims.
 
 Royal Commission on the Quebec Bridge Inquiry, Report, 1908. On the ring itself, see ironring.ca.
 {: .source}
@@ -154,11 +152,11 @@ Mariner 1 left Cape Canaveral for Venus on 22 July 1962, veered off course, and 
 
 ### The Harvard Mark II moth
 
-On 9 September 1947 an operator of the Harvard Mark II taped a moth into the logbook with the note "First actual case of bug being found." The entry is usually offered as the origin of the word, which the wording itself rules out. You do not write *actual* unless *bug* already means something else, and it did: engineers had been calling faults bugs since at least Edison. The joke in the logbook is that this time there was a literal one. The moth is therefore evidence that the term was already in use rather than the origin of it.
+On 9 September 1947 an operator of the Harvard Mark II taped a moth into the logbook with the note "First actual case of bug being found." Engineers had used *bug* to mean a fault since at least Edison. The logbook entry plays on that established meaning: this fault involved an insect. It records an example of the term in use, although later accounts often cite it as the term's origin.
 
 ### What computing is for
 
-Richard Hamming opened *Numerical Methods for Scientists and Engineers* with a line that applies directly to your first programming course: "The purpose of computing is insight, not numbers." A correct number that nobody understands has not yet been checked.
+Richard Hamming opened *Numerical Methods for Scientists and Engineers* with a line that applies directly to your first programming course: "The purpose of computing is insight, not numbers." For a calculated result, explain what the number measures and check its units and physical plausibility. Those checks connect the calculation to the problem it was intended to solve.
 
 ## Reading {#reading}
 
@@ -171,22 +169,22 @@ Richard Hamming opened *Numerical Methods for Scientists and Engineers* with a l
   <li>
     <a href="https://doi.org/10.1017/S0140525X00005756">Minds, Brains, and Programs</a>
     <span class="src">John Searle &middot; Behavioral and Brain Sciences, 1980</span>
-    <p>The Chinese Room argument, that running the right program is not the same as understanding it. The article sets out the thought experiment without requiring a programming background.</p>
+    <p>Searle uses the Chinese Room thought experiment to argue that running a program does not by itself establish understanding. The explanation does not require a programming background.</p>
   </li>
   <li>
     The Milk of Human Intentionality
     <span class="src">Daniel Dennett &middot; open peer commentary printed with Searle's paper, 1980</span>
-    <p>The reply, printed in the same issue. Searle's article was published with about two dozen commentaries and his answers to them, so the argument and its opposition are in one place.</p>
+    <p>Dennett responds to Searle in the commentaries published with the article. The issue includes about two dozen commentaries and Searle's replies, allowing you to compare the argument with objections to it.</p>
   </li>
   <li>
     <a href="https://archive.org/details/whatengineerskno0000vinc">What Engineers Know and How They Know It</a>
     <span class="src">Walter Vincenti &middot; Johns Hopkins University Press, 1990</span>
-    <p>Vincenti argues that engineering knowledge is not applied science, and works through five cases from aeronautical history to show what it is instead. Useful if you have wondered what your degree is actually teaching you.</p>
+    <p>Vincenti examines five cases from aeronautical history to explain how engineers develop knowledge through design. His account distinguishes that knowledge from the application of scientific results.</p>
   </li>
   <li>
     <a href="https://archive.org/details/toengineerishuma00petr">To Engineer Is Human</a>
     <span class="src">Henry Petroski &middot; St Martin's Press, 1985</span>
-    <p>Petroski's case that design advances by failure, argued through bridges, roofs and everyday objects. The case histories provide an introduction without assuming specialist engineering knowledge.</p>
+    <p>Petroski examines failures in bridges, roofs and everyday objects to explain how engineers revise designs. The case histories do not assume specialist engineering knowledge.</p>
   </li>
   <li>
     <a href="https://archive.org/details/computerpowerhum0000weiz_v0i3">Computer Power and Human Reason</a>
@@ -196,6 +194,6 @@ Richard Hamming opened *Numerical Methods for Scientists and Engineers* with a l
   <li>
     <a href="https://doi.org/10.1145/506147.506153">How Bad Is Selfish Routing?</a>
     <span class="src">Tim Roughgarden and Éva Tardos &middot; Journal of the ACM, 2002</span>
-    <p>The mathematical treatment of selfish routing, including the 4/3 bound discussed above. It requires more mathematical background than the other readings.</p>
+    <p>Roughgarden and Tardos derive bounds on the cost of selfish routing, including the 4/3 bound discussed above. The proofs require more mathematical background than the other readings.</p>
   </li>
 </ul>

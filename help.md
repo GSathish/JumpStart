@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Get help
-description: Where to go when you are stuck, organised by the moment you need it rather than by which office runs it.
+description: UBC resources for course questions, study support, academic advising and wellbeing.
 permalink: /help/
 sections:
   - id: math
@@ -23,70 +23,84 @@ Who to ask, and when
 
 # Get help
 
-This list is organised by the moment you need it rather than by which office runs it. Ask early. Every one of these is easier to use in week two than in week ten, and none of them will think you are wasting their time.
+Use the sections below to find help with a course question or another difficulty affecting your studies. Contact the relevant service when the difficulty appears, particularly when a deadline may limit your options.
 {: .lede}
 
 <div class="help" markdown="1">
 
 ## I need math help {#math}
 
-- [Math Learning Centre](https://www.math.ubc.ca/undergraduate/advising-and-resources/drop-help): drop-in help from graduate TAs in LSK 301 and 302, no appointment, for all first- and second-year math courses. First-year calculus students have the Calculus Common Room in LSK 302, open weekdays.
-- [Engineering academic support](https://students.engineering.ubc.ca/welcome-to-engineering/academic-support/): tutoring and study support run through the Faculty.
-- [AMS tutoring](https://www.ams.ubc.ca/support-services/student-services/tutoring/): peer tutoring, including for first-year science and engineering courses.
-- Your own course's office hours and tutorials, listed on the course page. Students use these less than anything else on this list, which is a mistake, because the person holding them wrote the problem set.
+For help with a method or a problem you have attempted, use one of these options:
 
-The Math Learning Centre is explicit that it is not there to check your answers. You will get more out of it if you bring a question about a method rather than a request for a solution.
+- [Math Learning Centre](https://www.math.ubc.ca/undergraduate/advising-and-resources/drop-help): drop-in help from graduate teaching assistants in LSK 301 and 302, no appointment, for all first- and second-year math courses. First-year calculus students have the Calculus Common Room in LSK 302, open weekdays.
+- [Engineering academic support](https://students.engineering.ubc.ca/welcome-to-engineering/academic-support/): tutoring and study support run through the Faculty.
+- [Alma Mater Society (AMS) tutoring](https://www.ams.ubc.ca/support-services/student-services/tutoring/): peer tutoring, including for first-year science and engineering courses.
+- Your course's office hours and tutorials, listed on the course page. Bring your attempt and identify the step you could not complete.
+
+The Math Learning Centre helps you work on methods rather than checking answers. Bring a question about your reasoning so that the teaching assistant can identify what needs explanation.
 
 ## I do not know how to study for this course {#studying}
 
-- [Chapman Learning Commons](https://learningcommons.ubc.ca/tutoring-and-coaching/): learning-strategy workshops and academic coaching, free, and aimed at exactly this question.
+These resources can help you examine how you prepare for class and practise the material:
+
+- [Chapman Learning Commons](https://learningcommons.ubc.ca/tutoring-and-coaching/): free learning-strategy workshops and academic coaching.
 - The [how to study]({{ '/how-to-study/' | relative_url }}) page on this site: what the evidence says, and the four-step learning loop.
-- A study group of three or four. Start it in the first two weeks, before anyone needs it. This is consistently the most-credited strategy on the wall each year, and it is also one of the best supported in the literature.
+- A study group of three or four. Agree on a meeting time, attempt the work beforehand, and compare explanations when you meet.
 
 ## I am stuck or falling behind {#behind}
 
-- Tell the instructor or the TA **before** the next deadline, not after, and say what you have already tried. Saying what you have tried is what turns the conversation into one about how to fix the problem, and instructors have far more room to help you before a deadline than after one.
+Start with the course staff for a specific assignment, and an academic adviser for decisions about your course load:
+
+- Contact the instructor or teaching assistant before the next deadline. Explain what you have attempted and where you became stuck so that they can identify an appropriate next step.
 - [Engineering Academic Services](https://academicservices.engineering.ubc.ca/): advising on course loads, deadlines, and what to do when a term goes wrong.
-- Drop and withdrawal dates are in the [Academic Calendar](https://vancouver.calendar.ubc.ca/). Look them up in the first week, because whether a dropped course appears on your transcript as a W or as a failure depends only on the date you drop it.
+- Check drop and withdrawal dates in the [Academic Calendar](https://vancouver.calendar.ubc.ca/). Ask an adviser how the applicable deadline affects your options and how a withdrawal would appear on your record.
 
-## I want to find my people {#people}
+## I want to meet other students {#people}
 
-Making friends is the most common first-year goal students write down, and not managing to is one of the most common worries they write down. Approach it as deliberately as you would approach a problem set.
+A shared activity gives you a reason to meet the same people regularly. Consider a group whose work interests you and ask what participation involves.
 
-- [Engineering design teams](https://engineering.ubc.ca/engineering-design-teams-list): more than thirty of them, from Formula and AeroDesign to autonomous robots and concrete toboggans. Most recruit first-year students, and none of them expect you to arrive knowing anything.
+- [Engineering design teams](https://engineering.ubc.ca/engineering-design-teams-list): projects including Formula and AeroDesign, autonomous robots and concrete toboggans. Ask the team about roles for first-year students and the experience required.
 - [Clubs and teams](https://engineering.ubc.ca/student-experience/clubs-and-teams), including the Engineering Undergraduate Society, which runs most of what happens outside class.
-- At least one thing that has nothing to do with engineering. The people in your program will be in your life for the next four years, and it helps if they are not the only people in it.
-- The study group from the previous section counts here too. It does the academic job and the social one at the same time.
+- An activity outside engineering, where you can meet people whose studies and interests differ from yours.
+- A study group, which provides regular contact with classmates as well as help with coursework.
 
-## I am unsure whether AI or collaboration is allowed {#ai}
+## I am unsure whether artificial intelligence or collaboration is allowed {#ai}
 
-- **The course syllabus and the assessment instructions, first.** The answer differs by course and by assignment. If they do not say, ask the instructor rather than assuming.
+Use the course instructions to establish what is permitted, with university guidance for context:
+
+- Read the course syllabus and assessment instructions. Rules for artificial intelligence (AI) tools and collaboration differ by course and assignment. If the instructions leave the use unclear, then ask the instructor.
 - [UBC academic integrity](https://academicintegrity.ubc.ca/): what counts as misconduct, and how to acknowledge help you received.
 - [Generative AI at UBC](https://genai.ubc.ca/): the university's own guidance for students.
 - The four questions on the [how to study]({{ '/how-to-study/' | relative_url }}) page: permission, purpose, position, proof.
 
-The penalties for getting this wrong are severe and the rules are not obvious, so ask rather than guess.
+Check permission before sharing work or using a tool. Advice about whether a tool helps you learn does not establish permission to use it on an assessment.
 
 ## I need health, accessibility, or financial support {#wellbeing}
 
+These services provide health support or help arrange academic accommodations:
+
 - [Student Health and Wellbeing](https://students.ubc.ca/health), including [counselling services](https://students.ubc.ca/health/counselling-services).
-- [Here2Talk](https://here2talk.ca/): free, confidential counselling for BC post-secondary students, 24 hours a day, by app, phone, or online chat. It is staffed overnight, which is when you are most likely to need it and least likely to reach anyone else.
-- [Centre for Accessibility](https://students.ubc.ca/about-student-services/centre-for-accessibility): academic accommodations, including for anxiety and attention-related conditions. You do not need a crisis to register, and doing it early is much easier than doing it during exams.
+- [Here2Talk](https://here2talk.ca/): free, confidential counselling for BC post-secondary students, 24 hours a day, by app, phone, or online chat. The service is available outside campus office hours.
+- [Centre for Accessibility](https://students.ubc.ca/about-student-services/centre-for-accessibility): academic accommodations, including for anxiety and attention-related conditions. Contact the centre early to discuss the registration process and the arrangements you may need.
 
 ### Language and writing
 
-- [Centre for Writing and Scholarly Communication](https://writing.library.ubc.ca/): free consultations, and explicitly open to multilingual writers new to academic English.
+For feedback on writing or support with English, contact:
+
+- [Centre for Writing and Scholarly Communication](https://writing.library.ubc.ca/): free writing consultations, including for multilingual writers.
 - [UBC English Language Institute](https://eli.ubc.ca/): English language programs and support.
 
 ### Money
+
+The following services address financial questions and immediate needs:
 
 - [Your Enrolment Services Advisor](https://students.ubc.ca/about-student-services/enrolment-services-advisors/): every undergraduate has one assigned. They handle bursaries, awards, loans, and payment problems, confidentially.
 - [Financial emergencies](https://students.ubc.ca/finances/financial-support-options/financial-emergencies/): the route to take when the problem is immediate and cannot wait for the next award cycle.
 - [AMS Food Bank](https://www.ams.ubc.ca/support-services/student-services/food-bank/): groceries and toiletries, up to 16 visits a term. You do not have to explain why you are there.
 
-Students regularly say they are worried about being a burden on their parents. These services exist because the university expects some students to need them and budgets for it, so using one is not an imposition on anybody.
+For a financial difficulty, contact your Enrolment Services Advisor to discuss which support options apply. The food bank and emergency-support links address more immediate needs.
 
 </div>
 
-If something here is missing or a link has gone stale, tell me and I will fix it: sathish@ece.ubc.ca
+Report a missing resource or broken link to sathish@ece.ubc.ca.
 {: .kicker}
