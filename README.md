@@ -1,12 +1,12 @@
 # Jumpstart site
 
 A small multi-page Jekyll site served by GitHub Pages at the repository root.
-Content lives in `index.md`, `going-further.md`, `how-to-study.md` and
-`help.md`; the look lives in `_layouts/default.html` and `assets/site.css`.
+Content lives in `index.md`, `going-further.md`, `choosing-a-path.md`,
+`how-to-study.md` and `help.md`; the look lives in `_layouts/default.html` and `assets/site.css`.
 There is no theme and no plugin, so GitHub Pages builds it with nothing beyond
 this repository.
 
-`index.md` is the only page that carries a year. The other three are written to
+`index.md` is the only page that carries a year. The other pages are written to
 be reused each September; keep cohort-specific material off them.
 
 ## Editing

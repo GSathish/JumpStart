@@ -57,7 +57,11 @@ Use the route example to consider the following questions about design responsib
 <div class="cards">
   <a class="card" href="{{ '/going-further/' | relative_url }}">
     <h2>Going further</h2>
-    <p>Explore a choice of specialisation, examine engineering failures, and follow the route problem to further results.</p>
+    <p>Follow the route problem to further results and examine engineering failures and the assumptions behind them.</p>
+  </a>
+  <a class="card" href="{{ '/choosing-a-path/' | relative_url }}">
+    <h2>Choosing a path</h2>
+    <p>Explore a choice of specialisation and examine how early experience can inform or change your plans.</p>
   </a>
   <a class="card" href="{{ '/how-to-study/' | relative_url }}">
     <h2>How to study</h2>

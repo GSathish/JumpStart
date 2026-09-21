@@ -173,7 +173,7 @@ Nick Perham and Joanne Vizard, *Can preference for background music mediate the 
 
 A difficult problem set can reveal a specific gap without establishing that you are unsuited to the subject. Identify the step you cannot complete and ask someone more experienced to explain it. Then attempt a similar problem on your own. This gives you a way to check whether the explanation helped.
 
-Repeated attempts also give you more experience on which to base a choice of field. We discuss how to interpret that experience in [early frustration and changing direction]({{ '/going-further/' | relative_url }}#practice).
+Repeated attempts also give you more experience on which to base a choice of field. We discuss how to interpret that experience in [early frustration and changing direction]({{ '/choosing-a-path/' | relative_url }}#practice).
 
 ### Persistence and grit
 
@@ -295,6 +295,6 @@ These books discuss routines, attention and the choice of goals. They provide br
   <li>
     <a href="https://lukeburgis.com/books/">Wanting: The Power of Mimetic Desire in Everyday Life</a>
     <span class="src">Luke Burgis, 2021</span>
-    <p>Burgis examines how other people influence what we want. This connects to the discussion of identity foreclosure: a preferred specialisation may partly reflect the preferences of people around you.</p>
+    <p>Burgis examines how other people influence what we want. This connects to the discussion of <a href="{{ '/choosing-a-path/' | relative_url }}#identity">identity foreclosure</a>: a preferred specialisation may partly reflect the preferences of people around you.</p>
   </li>
 </ul>
